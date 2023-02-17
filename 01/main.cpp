@@ -15,27 +15,32 @@ int main()
     int iMax[5]={0};
     int iColumn[5]={0};
     for (int l = 0; l < 5; ++l){
-        for (int k = 0; k < 5; ++k) {
+        for (int k = 0; k < 5; ++k)
             if (iMax[l] <= a[l][k]) {
                 iMax[l] = a[l][k];
-                iColumn[l]=k;
+                iColumn[l] = k;
             }
-        }
+
     }
 
     int iFlag[5]= {0};
     for (int k = 0; k < 5; ++k) {
-        for (int l = 0; l < 5; ++l) {
-            if (iMax[k]>a[l][iColumn[k]])
+        for (int l = 0; l < 5; ++l)
+            if (iMax[k] > a[l][iColumn[k]])
                 iFlag[k]++;
-        }
+
     }
 
-    for (int k = 0; k < 5; ++k) {
-        if(iFlag[k]==0){
-            cout<<k+1<<' '<<iColumn[k]+1<<' '<<iMax[k]<<endl;
+    int iTemp=0;
+    for (int k = 0; k < 5; ++k)
+        if (iFlag[k] == 0) {
+            cout << k + 1 << ' ' << iColumn[k] + 1 << ' ' << iMax[k] << endl;
+            iTemp++;
         }
-    }
+
+    if (iTemp == 0)
+        cout<<"-1"<<endl;
+
 
     /********end********/
     return 0;
