@@ -23,11 +23,11 @@ In addition, I would like to thank all the classmates and friends who have suppo
 
 If you like my work, you can "Follow" my account or "Star" this repository. 
 
-Of course, you can buy me a coffee if you like~
+**Of course, you can buy me a coffee if you like~**
 
-**Payments greater than ￥10.00 will be listed in the Acknowledgement section of the README as an expression of gratitude.**
+---
 
-Payment method:
+**Payment methods:**
 
 - [WeChat](./image/WeChat.jpg)
 - [Alipay](./image/Alipay.jpg)
